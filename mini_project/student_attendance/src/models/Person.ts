@@ -1,0 +1,8 @@
+export abstract class Person {
+    constructor(
+        public id: number,
+        public name: string
+    ) {}
+
+    abstract getRole(): string;
+}
